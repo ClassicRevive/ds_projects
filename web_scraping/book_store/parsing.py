@@ -21,8 +21,8 @@ myBooklist = []
 for article in soup.find_all('article'):  # find all article tags in the document
     title = article.find('h3').find('a')['title']  # get the h3->a tag where the Title is stored
     price = article.find('p', {'class': 'price_color'}).get_text()[1:]
-    # Now scrape the book rating myself!
 
+    # Now scrape the book rating myself!
     p_search = article.find_all('p')
     for col in p_search:
         if col.has_attr('class') and col['class'][0] == 'star-rating':
@@ -35,7 +35,7 @@ for article in soup.find_all('article'):  # find all article tags in the documen
 # find next page url
 next = soup.find('li', {'class': 'next'})
 
-# basic crawler to find al book names, prices, and ratings
+# basic crawler to find all book names, prices, and ratings
 while next is not None:
     next = next.find('a')['href']
     if not next.startswith('catalogue/'): next="catalogue/"+next
