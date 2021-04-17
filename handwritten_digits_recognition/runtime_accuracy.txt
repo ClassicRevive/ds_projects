@@ -1,0 +1,79 @@
+Thes runtimes are for running KNN algorithm to classify digits from digits dataset.
+Runtimes taken from lab machine
+
+10k randomly generated 1's and 10k randomly generated 7's.
+initial 7 model version (potential overlaps between cross stroke and top stroke)
+Time: 185s
+Confusion matrix:
+       labels
+results   1   7
+      1 956 223
+      7  44 777
+
+
+10k randomly generated 1's and 10k 7's
+improved 7's model
+Time: 186.09"
+Confusion matrix:
+       labels
+results   1   7
+      1 973 195
+      7  27 805
+alot less misclassified 1's, slightly less misclassified 7's
+
+
+10k 1's and 7's from multivariate normal models
+# Time: 197.66 (on this laptop)
+Confusion matrix (k=1)
+      labels
+results    1    7
+      1 1000   33
+      7    0  967
+accuracy: 98.35% (k=1), 98.65% (k=5)
+
+
+100k randomly generated 1's and 100k 7's, box method with box size = 300
+initial 7 model
+Time: 110s
+Confusion matrix:
+       labels
+ results   1   7
+       1 939 143
+       7  61 857
+
+
+100k randomly generated 1's and 100k 7's box method with box size = 500
+improved 7 model
+Time: 261s
+Confusion matrix:
+       labels
+results   1   7
+      1 997  71
+      7   3 929
+accuracy (high): 96.3%
+
+
+10k randomly generated 1's with two stage method
+initial 7 model
+Time: 142s
+Confusion matrix:
+       labels
+results   1   7
+      1 895  49
+      7 105 951
+lower 7 misclassification rate, slightly higher 1 misclassification.
+high rate of overlapping cross stroke and upper stroke with 7's causing misclassified 1's
+preventing overlap with an improved 7 model can increase the accuracy.
+
+
+100k randomly generated 1's with the two-stage method
+initial 7 model
+Time: 244s
+Confusion matrix:
+       labels
+results   1   7
+      1 907  52
+      7  93 948
+Slight accuracy improvement but not an efficient optimisation.
+
+
