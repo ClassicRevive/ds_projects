@@ -1,0 +1,335 @@
+<!DOCTYPE html> 
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Computer Science Circles | 01000011 01010011 01000011</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="https://cscircles.cemc.uwaterloo.ca/wp-content/themes/pybox2011childTheme/style.css" />
+<!--[if lt IE 9]>
+<script src="https://cscircles.cemc.uwaterloo.ca/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cscircles.cemc.uwaterloo.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.2"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='dashicons-css'  href='https://cscircles.cemc.uwaterloo.ca/wp-includes/css/dashicons.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-jquery-ui-dialog-css'  href='https://cscircles.cemc.uwaterloo.ca/wp-includes/css/jquery-ui-dialog.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-css'  href='https://cscircles.cemc.uwaterloo.ca/wp-includes/css/admin-bar.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://cscircles.cemc.uwaterloo.ca/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://cscircles.cemc.uwaterloo.ca/wp-includes/css/dist/block-library/theme.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyeleven-block-style-css'  href='https://cscircles.cemc.uwaterloo.ca/wp-content/themes/twentyeleven/blocks.css?ver=20190102' type='text/css' media='all' />
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://cscircles.cemc.uwaterloo.ca/wp-json/' />
+<meta name="generator" content="WordPress 5.4.2" />
+<link rel="canonical" href="https://cscircles.cemc.uwaterloo.ca/" />
+<link rel='shortlink' href='https://cscircles.cemc.uwaterloo.ca/' />
+<link rel="alternate" type="application/json+oembed" href="https://cscircles.cemc.uwaterloo.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcscircles.cemc.uwaterloo.ca%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://cscircles.cemc.uwaterloo.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcscircles.cemc.uwaterloo.ca%2F&#038;format=xml" />
+<script type='text/javascript'>
+var translationArray = null;var SUBMITURL = 'https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/action-submit-code.php';
+var SETCOMPLETEDURL = 'https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/action-notify-complete.php';
+var CONSOLEURL = 'https://cscircles.cemc.uwaterloo.ca/console/';
+var FILESURL = 'https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/files/';
+var HISTORYURL = 'https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/db-problem-history.php';
+var VISUALIZEURL = 'https://cscircles.cemc.uwaterloo.ca/visualize/';
+var MESSAGEURL = 'https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/action-send-message.php';
+var MAILURL = 'https://cscircles.cemc.uwaterloo.ca/mail/';
+var DEFAULTTIMEOUTMS = '6000';
+var PB_LANG4 = 'en_US';
+</script>
+<link type="text/css" rel="stylesheet" href="https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/pybox.css?24" />
+<script type="text/javascript" src="https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/pybox.js?49"></script>
+<link rel='stylesheet' type='text/css' href='https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/customizations-codemirror/codemirror-specific.css'>
+<link rel='stylesheet' type='text/css' href='https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/customizations-codemirror/codemirror-extras.css'>
+<link rel='stylesheet' type='text/css' href='https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/customizations-codemirror/textmate.css'>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/CodeMirror3/lib/codemirror.js'></script>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/CodeMirror3/mode/python/python.js'></script>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/CodeMirror3/addon/display/autorefresh.js'></script>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/flexigrid/js/flexigrid.js'></script>
+<link type="text/css" rel="stylesheet" href="https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/flexigrid/css/flexigrid.css" />
+<link rel="shortcut icon" href="https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/files/favicon.ico"/><style type="text/css">
+/* <![CDATA[ */
+img.latex { vertical-align: middle; border: none; }
+/* ]]> */
+</style>
+<link rel="alternate" href="https://cscircles.cemc.uwaterloo.ca/" hreflang="en" />
+<link rel="alternate" href="https://cscircles.cemc.uwaterloo.ca/fr/" hreflang="fr" />
+<link rel="alternate" href="https://cscircles.cemc.uwaterloo.ca/de/" hreflang="de" />
+<link rel="alternate" href="https://cscircles.cemc.uwaterloo.ca/lt/" hreflang="lt" />
+<link rel="alternate" href="https://cscircles.cemc.uwaterloo.ca/tr/" hreflang="tr" />
+<link rel="alternate" href="https://cscircles.cemc.uwaterloo.ca/nl/" hreflang="nl" />
+<link rel="alternate" href="https://cscircles.cemc.uwaterloo.ca/zh/" hreflang="zh" />
+<link rel="alternate" href="https://cscircles.cemc.uwaterloo.ca/pl/" hreflang="pl" />
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+	</head>
+
+<body class="home page-template-default page page-id-94 admin-bar no-customize-support wp-embed-responsive singular one-column content">
+<div id="page" class="hfeed">
+	  <div id="bumper"><span>[Python Programming Tutorials]</span></div>
+
+	<div style="width: 100%; background: black;  height:40px;">
+  <a href="http://www.uwaterloo.ca"><img src="https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/files/wordmark-uw.gif" style="margin: 0px;"/></a>
+<a href="http://cemc.uwaterloo.ca"><img src="https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/files/wordmark-cemc.png" style="margin: 0px; position: absolute; right: 0px;"></a>
+	  </div>
+<!--<div style='background-color: yellow'><center><b>This site was recently migrated. Email any questions to <tt><a href="mailto:daveagp@gmail.com">daveagp@gmail.com</a></tt>.</b></center></div>-->
+<header id="branding" role="banner">
+<div class="toppictureholder"><a href="https://cscircles.cemc.uwaterloo.ca/ack/"><img src="https://cscircles.cemc.uwaterloo.ca/wp-content/themes/pybox2011childTheme/images/header.jpg" width="1000" height="150" /></a>
+</div>
+
+							  			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu-english-cs-circles-nav-menu-container"><ul id="menu-english-cs-circles-nav-menu" class="menu"><li id="menu-item-2366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2366"><a href="https://cscircles.cemc.uwaterloo.ca/using-this-website/">Using This Website</a></li>
+<li id="menu-item-2363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2363"><a href="https://cscircles.cemc.uwaterloo.ca/console/">Console</a></li>
+<li id="menu-item-4066" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4066"><a target="_blank" rel="noopener noreferrer" href="/visualize">Visualize</a></li>
+<li id="menu-item-2365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2365"><a href="https://cscircles.cemc.uwaterloo.ca/run-at-home/">Python At Home</a></li>
+<li id="menu-item-2455" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2455"><a href="https://cscircles.cemc.uwaterloo.ca/resources/">Resources</a></li>
+<li id="menu-item-3886" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3886"><a href="https://cscircles.cemc.uwaterloo.ca/cheatsheet/">Cheatsheet</a></li>
+<li id="menu-item-2364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2364"><a href="https://cscircles.cemc.uwaterloo.ca/contact/">Contact</a></li>
+<li id="menu-item-2362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2362"><a href="https://cscircles.cemc.uwaterloo.ca/ack/">Thanks</a></li>
+<li id="menu-item-3391" class="menu-item-for-my-progress menu-item menu-item-type-post_type menu-item-object-page menu-item-3391"><a href="https://cscircles.cemc.uwaterloo.ca/user-page/">My Progress</a></li>
+<li id="menu-item-122" class="menu-item-for-lesson-zero menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-94 current_page_item menu-item-122"><a href="https://cscircles.cemc.uwaterloo.ca/" aria-current="page">0: Hello!</a></li>
+<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-243"><a href="https://cscircles.cemc.uwaterloo.ca/1-variables/">1: Variables</a>
+<ul class="sub-menu">
+	<li id="menu-item-4438" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4438"><a href="https://cscircles.cemc.uwaterloo.ca/1e-errors/">1E: Errors</a></li>
+</ul>
+</li>
+<li id="menu-item-269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-269"><a href="https://cscircles.cemc.uwaterloo.ca/2-functions/">2: Functions</a>
+<ul class="sub-menu">
+	<li id="menu-item-2993" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2993"><a href="https://cscircles.cemc.uwaterloo.ca/2x-extra-practice/">2X: Extra Practice</a></li>
+</ul>
+</li>
+<li id="menu-item-456" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-456"><a href="https://cscircles.cemc.uwaterloo.ca/3-comments-literals/">3: Comments, Quotes</a></li>
+<li id="menu-item-422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-422"><a href="https://cscircles.cemc.uwaterloo.ca/4-types/">4: Types</a></li>
+<li id="menu-item-562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-562"><a href="https://cscircles.cemc.uwaterloo.ca/5-input/">5: Input</a></li>
+<li id="menu-item-555" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-555"><a href="https://cscircles.cemc.uwaterloo.ca/6-if/">6: If</a></li>
+<li id="menu-item-4154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4154"><a href="https://cscircles.cemc.uwaterloo.ca/6d-design/">6D: Debug</a></li>
+<li id="menu-item-2886" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2886"><a href="https://cscircles.cemc.uwaterloo.ca/7-rich-editor/">7: Rich</a>
+<ul class="sub-menu">
+	<li id="menu-item-735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-735"><a href="https://cscircles.cemc.uwaterloo.ca/7a-strings/">7A: Strings</a></li>
+	<li id="menu-item-865" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-865"><a href="https://cscircles.cemc.uwaterloo.ca/7b-math/">7B: Math</a></li>
+	<li id="menu-item-852" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-852"><a href="https://cscircles.cemc.uwaterloo.ca/7c-loops/">7C: Loops</a></li>
+</ul>
+</li>
+<li id="menu-item-984" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-984"><a href="https://cscircles.cemc.uwaterloo.ca/8-remix/">8: Remix</a></li>
+<li id="menu-item-999" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-999"><a href="https://cscircles.cemc.uwaterloo.ca/9-else-and-or-not/">9: Else, And, Or, Not</a></li>
+<li id="menu-item-1152" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1152"><a href="https://cscircles.cemc.uwaterloo.ca/10-def/">10: def</a></li>
+<li id="menu-item-1552" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1552"><a>11</a>
+<ul class="sub-menu">
+	<li id="menu-item-1537" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1537"><a href="https://cscircles.cemc.uwaterloo.ca/11a-lower-case/">11A: Lower Case</a></li>
+	<li id="menu-item-1576" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1576"><a href="https://cscircles.cemc.uwaterloo.ca/11b-how-functions-work/">11B: Variable Scope</a></li>
+	<li id="menu-item-1594" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1594"><a href="https://cscircles.cemc.uwaterloo.ca/11c-geometry/">11C: Geometry</a></li>
+</ul>
+</li>
+<li id="menu-item-956" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-956"><a href="https://cscircles.cemc.uwaterloo.ca/12-tips/">12: Tips</a></li>
+<li id="menu-item-1691" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1691"><a href="https://cscircles.cemc.uwaterloo.ca/13-lists/">13: Lists</a></li>
+<li id="menu-item-1735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1735"><a href="https://cscircles.cemc.uwaterloo.ca/14-methods/">14: Methods</a></li>
+<li id="menu-item-1808" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1808"><a>15</a>
+<ul class="sub-menu">
+	<li id="menu-item-1790" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1790"><a href="https://cscircles.cemc.uwaterloo.ca/15a-basic/">15A: Termination Determination</a></li>
+	<li id="menu-item-1807" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1807"><a href="https://cscircles.cemc.uwaterloo.ca/15b-python-pushups/">15B: Python Pushups</a></li>
+	<li id="menu-item-1821" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1821"><a href="https://cscircles.cemc.uwaterloo.ca/15c/">15C: Caesar's JVTIVK JRCRU IVTZGV</a></li>
+</ul>
+</li>
+<li id="menu-item-1975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1975"><a href="https://cscircles.cemc.uwaterloo.ca/16-recursion/">16: Recursion</a></li>
+<li id="menu-item-2201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2201"><a href="https://cscircles.cemc.uwaterloo.ca/17-is/">17: Is</a></li>
+<li id="menu-item-2369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2369"><a href="https://cscircles.cemc.uwaterloo.ca/18-efficiency/">18: Efficiency</a></li>
+</ul></div>			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					
+<article id="post-94" class="post-94 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title">0: Hello!</h1>
+	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<!-- Please retain this notice and add more notes if you create a new version.<br />
+Original lesson author: David Pritchard, daveagp@gmail.com, http://cscircles.ca<br />
+License: http://creativecommons.org/licenses/by-nc-sa/3.0/-->
+<em>New around here? Read <a class='open-same-window' href='https://cscircles.cemc.uwaterloo.ca/using-this-website/'>Using this Website</a>. You can also <a class='open-same-window' href='https://cscircles.cemc.uwaterloo.ca/wp-login.php?redirect_to=https%3A%2F%2Fcscircles.cemc.uwaterloo.ca%2F'>click here to create an account or log in</a>.</em><br/>
+<p>This website teaches computer programming. This skill is very useful: with programming you can automate computer tasks, make art and music, interpret and analyze survey results, build tools for other people, create custom websites, write games, examine genetic data, connect people with each other, and the list goes on and on.</p>
+<p>If you would like a more gradual, video-based presentation to Python, you may want to examine <a href="https://open.cs.uwaterloo.ca/python-from-scratch/">Python from Scratch</a>, offered by the University of Waterloo.  There is also a video series on <a href="https://open.cs.uwaterloo.ca/language-independent-lessons/">Language Independent Programming Lessons</a> which can be a useful supplement.</p>
+<p>A computer <em>program</em> is a series of instructions, written in words, numbers and symbols. Just like any spoken sentence is in a human language like English or French, every computer program is in a <em>programming language</em>. A few popular programming languages are <strong>Python</strong> (what we will teach here), C++, JavaScript and PHP. We have chosen to teach Python since it is both simple enough for beginners and powerful enough to be used by modern companies. All programming languages use the same general principles, so after you know any one language, you can learn others more quickly.</p>
+<p>Here is the first line of <strong>Python</strong> code in our lessons.</p>
+<p><form class="pbform" action="#" id="pbform0" method="POST">
+<div class='pybox modeNeutral  facultative' id='pybox0'>
+<div class="heading"><span class="title">Example</span></div>This is a sample <strong>Python</strong> program. Press the <strong>Run program</strong> button to see what it does.<div class='pyboxTextwrap pyboxCodewrap RO '  style='height: 32px;'><textarea wrap='off' name='usercode0' id='usercode0'  cols=10 rows=1 readonly='readonly'  style = 'height : 32px;'  class='pyboxCode RO'>
+print("Hello, World!")</textarea></div>
+<div id='pbhistory0' class='flexcontain' style='display:none;'></div>
+<div class='pyboxbuttons'><table><tr>
+<td><input type='submit' name='submit' id='submit0' value=' '/></td>
+</tr></table></div>
+<input type="hidden" name="lang" value="en_US"/><input type="hidden" id="inputInUse0" name="inputInUse" value="Y"/>
+<input type="hidden" name="pyId" value="0"/>
+<input type="hidden" name="hash" value="01179f4aed2f85e6c94eabb3cb9a4c48"/>
+<div id='pbresults0' class='pbresults'></div>
+</div>
+</form>
+<script type='text/javascript'>document.getElementById("submit0").value = "Run program";document.getElementById("inputInUse0").value = "N";</script>
+</p>
+<p>When you run a program you also get to see the <em>output</em>. The example program above only has one command, <code>print("Hello, World!")</code> and it created one line of output,</p>
+<pre>Hello, World!</pre><code></code>Here is an analysis of this first program:</p>
+<ul>
+<li><code>print</code> is the name of a Python command, which sends messages to output.</li>
+<li>The parentheses <code>()</code> after the print command are used to contain what you want to print.</li>
+<li>The quote marks <code>" "</code> are used as a container for the text <code>Hello, World!</code> inside. Without quotes, Python would think that <code>Hello</code> was meant to be a command. This would be cause an error since no such command exists.</li>
+</ul>
+<p>You will learn more about the different pieces of a Python program as you progress through these lessons.</p>
+<p>Let's see exactly what happens when we leave out the quotes.</p>
+<p><form class="pbform" action="#" id="pbform1" method="POST">
+<div class='pybox modeNeutral  facultative' id='pybox1'>
+<div class="heading"><span class="title">Example</span></div>This Python program will cause an error. Press the <strong>Run program</strong> button.<div class='pyboxTextwrap pyboxCodewrap RO '  style='height: 32px;'><textarea wrap='off' name='usercode1' id='usercode1'  cols=10 rows=1 readonly='readonly'  style = 'height : 32px;'  class='pyboxCode RO'>
+print(Hello, World)</textarea></div>
+<div id='pbhistory1' class='flexcontain' style='display:none;'></div>
+<div class='pyboxbuttons'><table><tr>
+<td><input type='submit' name='submit' id='submit1' value=' '/></td>
+</tr></table></div>
+<input type="hidden" name="lang" value="en_US"/><input type="hidden" id="inputInUse1" name="inputInUse" value="Y"/>
+<input type="hidden" name="pyId" value="1"/>
+<input type="hidden" name="hash" value="215d19d291445e6a35f30de1b9b7f66e"/>
+<div id='pbresults1' class='pbresults'></div>
+</div>
+</form>
+<script type='text/javascript'>document.getElementById("submit1").value = "Run program";document.getElementById("inputInUse1").value = "N";</script>
+</p>
+<p>Here, the program <em>crashed</em>: this means we gave a bad command to the computer, causing an error and forcing it to stop.</p>
+<h2>Exercise</h2>
+<p>Our first exercise is given below. It asks you to write a program similar to the first one above. Type your program into the box, and when you want to test whether your program correctly performs the task, press the <strong>Run program</strong> button. If you don't get it correct on the first try, edit the program and try running it again.</p>
+<p><form class="pbform" action="#" id="pbform2" method="POST">
+<div class='pybox modeNeutral ' id='pybox2'>
+<img title='You have not yet completed this problem.' src='https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/files/icon.png' class='pycheck'/><div class="heading"><span class='type'>Coding Exercise: </span><span class='title'>Bonjour</span></div>Write a program which prints </p>
+<pre>Bonjour, tout le monde!</pre> (Hint: if you get stuck, copy the <a class="hintlink"  id="hintlink3">first program above</a> and then edit it.)<div class="helpOuter" style="display: none;"><div class="helpInner"><div style="text-align: center">You need to create an account and log in to ask a question.</div></div></div><div class='pyboxTextwrap pyboxCodewrap RW resizy'  style='height: 58px;'><textarea wrap='off' name='usercode2' id='usercode2' placeholder='Click on this box and type to enter your code' cols=10 rows=2   class='pyboxCode RW'>
+</textarea></div>
+<div id='pbhistory2' class='flexcontain' style='display:none;'></div>
+<div class='pyboxbuttons'><table><tr>
+<td><input type='submit' name='submit' id='submit2' value=' '/></td>
+<td><input type='button' name='history' value="History" onclick="historyClick(2,'0.bonjour')" ></td>
+<td><input type='button' name='help' value="Help" onclick="helpClick(2);" ></td>
+</tr></table></div>
+<input type="hidden" name="lang" value="en_US"/><input type="hidden" id="inputInUse2" name="inputInUse" value="Y"/>
+<input type="hidden" name="pyId" value="2"/>
+<input type="hidden" name="hash" value="79bb681d5a54bb8636b4e26890fe9452"/>
+<div id='pbresults2' class='pbresults'></div>
+</div>
+</form>
+<script type='text/javascript'>document.getElementById("submit2").value = "Run program";document.getElementById("inputInUse2").value = "N";</script>
+</p>
+<p><em>Tip: you can make the code box look taller by dragging its <a onmouseover="jQuery('.pybox .ui-resizable-handle').css('background-color', 'blue');" onmouseout="jQuery('.pybox .ui-resizable-handle').css('background-color', '');">bottom border</a>.</em></p>
+<p>If you have <a class="open-same-window" href="http://cscircles.cemc.uwaterloo.ca/wp-login.php?redirect_to=http://cscircles.cemc.uwaterloo.ca/">created an account and logged in</a>,</p>
+<ul>
+<li>we will save every version of the code that you run;</li>
+<li><strong>History</strong> shows you all versions you have submitted so far;</li>
+<li>and when you visit the site again, the most recent version appears in the editor.</li>
+</ul>
+<p>Once you get an exercise like this correct, you will see a checkmark <img style="vertical-align: -6px;" alt="" src="../wp-content/plugins/pybox/files/checked.png" width="24px" height="24px" /> appear in the top right corner of the box. If you are logged in, the Computer Science Circles website will remember which exercises you complete.</p>
+<p><table class='pywarn'><tr><td class='pywarnleft'><img src='https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/files/warning.png'/></td><td class='pywarnright'><span> These lessons teach <strong>Python version 3</strong>. While our lessons aim to be self-contained, if you decide to search online for other information about Python, be aware that Python version 2 is also commonly used and is incompatible in some ways.   </span></td></table></p>
+<p>Once you are ready to go to the next lesson, click the <strong>Next</strong> button below.</p>
+			</div><!-- .entry-content -->
+	<footer class="entry-meta">
+			</footer><!-- .entry-meta -->
+</article><!-- #post-94 -->
+
+					
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+   
+</div><!-- #main -->
+<footer id="colophon" role="contentinfo">
+
+    
+<div class="locator"><table class="locator"><tr><td class="locator"><a style="font-size:100%" class="open-same-window locator locator-c"  title="0: Hello! (goes to top of current page)" onclick="scrollToTop()"><span class='buttn'>0: Hello!</span></a><a style="font-size:100%" class="open-same-window locator locator-r"  title="1: Variables" href="https://cscircles.cemc.uwaterloo.ca/1-variables/"><span class='buttn'><span class='nextlesson'>Next</span> 1: Variables</span></a><a style="font-size:90%" class="open-same-window locator locator-r"  title="1E: Errors" href="https://cscircles.cemc.uwaterloo.ca/1e-errors/"><span class='buttn'>1E: Errors</span></a></td></tr></table></div>
+  <div id="site-generator">
+  <a href="http://cemc.uwaterloo.ca"><div class="cemc logo"></div></a>
+  <a href='http://cemc.uwaterloo.ca/copyright.html'>
+<img src='/wp-content/plugins/pybox/files/cc.png' style='height:0.8em; vertical-align: baseline; top: 0px' />
+  2010&ndash;2021.</a> Computer Science Circles is a free service of the <a href="http://www.cemc.uwaterloo.ca/">Centre for Education in Mathematics and Computing</a> at the <a href="http://www.uwaterloo.ca">University of Waterloo</a>. <br> Total number of exercises completed by all users: <b>2618821</b>
+   <div id="departmentaddress">
+  CEMC |
+  University of Waterloo, MC 5104 |
+  200 University Avenue West |
+  Waterloo, Ontario, Canada N2L 3G1 |
+  Phone: 519 888 4808 |
+  <a href="https://cscircles.cemc.uwaterloo.ca/contact/">contact us</a>
+   </div>
+
+  </div> 
+
+ </footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+<div id="hintbox3" class="hintbox "><div id="hintboxlink3" class="hintboxlink"></div>The first program was
+
+<pre>print("Hello, World!")</pre>
+
+<em>You can drag this hint box to move it.</em></div><span id="pylangswitcher"><li><a href="https://cscircles.cemc.uwaterloo.ca/fr/">fr</a></li><li><a href="https://cscircles.cemc.uwaterloo.ca/de/">de</a></li><li><a href="https://cscircles.cemc.uwaterloo.ca/nl/">nl</a></li><li><a href="https://cscircles.cemc.uwaterloo.ca/lt/">lt</a></li><li><a href="https://cscircles.cemc.uwaterloo.ca/zh/">zh</a></li></span><script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-includes/js/jquery/jquery.ui.touch-punch.js?ver=0.2.2'></script>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-includes/js/hoverintent-js.min.js?ver=2.2.1'></script>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-includes/js/admin-bar.min.js?ver=5.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/cscircles.cemc.uwaterloo.ca\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.2.1'></script>
+<script type='text/javascript' src='https://cscircles.cemc.uwaterloo.ca/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
+		<div id="wpadminbar" class="nojq nojs">
+							<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Skip to toolbar</a>
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
+				<ul id='wp-admin-bar-root-default' class="ab-top-menu"><li id='wp-admin-bar-site-name'><a class='ab-item' href='https://cscircles.cemc.uwaterloo.ca/'>Computer Science Circles</a></li></ul><ul id='wp-admin-bar-top-secondary' class="ab-top-secondary ab-top-menu"><li id='wp-admin-bar-new-or-login' class="new-or-login"><a class='ab-item' href='https://cscircles.cemc.uwaterloo.ca/wp-login.php?redirect_to=%2F'><p>Create free account / login</p><p>to save your progress</p></a></li><li id='wp-admin-bar-search' class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="https://cscircles.cemc.uwaterloo.ca/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><label for="adminbar-search" class="screen-reader-text">Search</label><input type="submit" class="adminbar-button" value="Search"/></form></div></li><li id='wp-admin-bar-totop'><div class="ab-item ab-empty-item"><img onclick="scrollToTop()" title="scroll to top" class="icon" src="https://cscircles.cemc.uwaterloo.ca/wp-content/plugins/pybox/files/up.png"/></div></li></ul>			</div>
+					</div>
+
+		
+</body>
+</html>
