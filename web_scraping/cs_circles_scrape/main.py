@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from bs4 import BeautifulSoup
 from string import punctuation
 
@@ -6,8 +7,6 @@ from string import punctuation
 html = open('webpages/webpage1.html', encoding="utf8").read()
 
 soup = BeautifulSoup(html, 'lxml')
-
-# scraping webpage
 
 # parsing the webpage
 menu = soup.find('div', {'class': 'menu-english-cs-circles-nav-menu-container'})
@@ -25,7 +24,6 @@ while i < len(tokens):
 
   i += 1
 
-print("test")
 # load into dictionary
 for token in tokens:
   if token not in words:
@@ -35,7 +33,7 @@ for token in tokens:
 
 # load words into dataframe
 words_df = pd.DataFrame(list(words.items()), columns=["word", "count"])
-words_df.sort_values(by="count", inplace=True, ascending = False)
+words_df.sort_values(by="count", inplace=True, ascending=False)
 
 # remove words that only occur once
 words_df = words_df[words_df['count'] > 1].reset_index(drop=True)
@@ -52,11 +50,17 @@ while i < len(names):
   else:
     i += 1
 
+# removing duplicates
+names.pop(14)
+names.pop(44)
+names.pop(44)
+names.pop(44)
+
 for name in names:
   print(name)
   print('------')
 
 # writing data to file
-words_df.to_csv('data/word_count.csv')
+#words_df.to_csv('data/word_count.csv')
 
 print("done")
