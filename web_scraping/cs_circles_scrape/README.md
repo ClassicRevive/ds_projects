@@ -17,6 +17,9 @@ In "main.py" I extracted the following:
 - Word count dataset
 
   Scraped all the text on the home page, cleaned the textual data and then constructed a word count data frame to be read out as CSV.
+  
+  Observed that the most common words were conjunctions, prepositions, and words which you would most likely find in a programming article such as:
+  {arguement, weight, code, x, program, max, Python}
 
 
 
