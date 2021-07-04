@@ -37,6 +37,8 @@ words_df.sort_values(by="count", inplace=True, ascending=False)
 
 # remove words that only occur once
 words_df = words_df[words_df['count'] > 1].reset_index(drop=True)
+with pd.option_context('display.max_rows', None, 'display.max_columns', None):  # more options can be specified also
+  print(words_df)
 
 # extracting the menu
 for article in menu.find_all('li'):

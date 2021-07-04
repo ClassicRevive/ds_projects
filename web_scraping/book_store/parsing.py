@@ -12,7 +12,7 @@ soup = BeautifulSoup(html, 'lxml')
 
 # read webpage from the file
 url = "http://books.toscrape.com/"
-html = open("webpage1.html").read()
+html = open("webpages/webpage1.html").read()
 soup = BeautifulSoup(html, 'lxml')
 
 myBooklist = []
@@ -59,4 +59,4 @@ while next is not None:
 
 
 # pickle the list into another file
-pickle.dump(myBooklist, open('booklist.p', 'wb'))
+pickle.dump(myBooklist, open('data/booklist.p', 'wb'))
