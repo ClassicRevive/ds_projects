@@ -1,39 +1,4 @@
-### Assignment 1 – Random Forest and AutoML
-The dataset for this project is the “Pima Indians Diabetes Database”. This dataset is available
-here - https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
-(Note the text below is taken from the Kaggle website)
-
-
-**The Data**
-This dataset is originally from the National Institute of Diabetes and Digestive and Kidney
-Diseases. The objective of the dataset is to diagnostically predict whether or not a patient
-has diabetes, based on certain diagnostic measurements included in the dataset. Several
-constraints were placed on the selection of these instances from a larger database. In
-particular, all patients here are females at least 21 years old of Pima Indian heritage.
-
-The datasets consists of several medical predictor variables and one target variable,
-Outcome. Predictor variables includes the number of pregnancies the patient has had, their
-BMI, insulin level, age, and so on.
-The original paper to cite:
-Smith, J.W., Everhart, J.E., Dickson, W.C., Knowler, W.C., & Johannes, R.S. (1988). Using the
-ADAP learning algorithm to forecast the onset of diabetes mellitus. In Proceedings of the
-Symposium on Computer Applications and Medical Care (pp. 261--265). IEEE Computer
-Society Press.
-
-**Your challenge**
-Can you build a machine learning model to accurately predict whether or not the patients in
-the dataset have diabetes or not?
-
-**Constraints:** I wish to see you attempt the challenge two ways:
-**Method 1:** Using a Random Forest classifier
-**Method 2:** Using an automated ML method via PyCaret
-
-Write up your work as a Jupyter notebook which you must contain clear
-commentary and code and should be executable by your examiner. I would like to see that
-you provide some commentary which gives the reader an idea of how AutoML works in
-general and how PyCaret works particularly (you can spend around 1000 words or 2 “A4
-pages” or so doing that if you like – use your own words and thoughts here).
-You will add a discussion section to this notebook in which you highlight the differences you
-see between your automated approach and your original hand engineered random forest
-attempt (500 word limit for this final discussion section – not a hard limit by the way). You
-will be providing a critical evaluation of the two approaches here.
+My name is Joseph Oluwasanya, I am a final year student at Dublin City University, Ireland. I am a BSc in Data Science student there. From a young age I’ve been interested in programming, getting early exposure through a CoderDojo program from 2012 to 2015. In school the subjects I enjoyed most was mathematics. After exploring the options, I found that the Data Science major would further my education in all these areas, and that there were jobs for which these skills are useful. In the last few years, as I’ve completed each year of my degree program, and obtained work experience in the field at a global insurance company, I’ve learnt that I thoroughly enjoy working in this space. I realized also that I desire to learn more about statistics and machine learning before starting my career. Because of this I decided to pursue further education in the field and am pursuing a career in data science.
+I am first generation Black Irish, and my ethnicity is Nigerian. My Dad is of the Yoruba tribe and my mum of the smaller Benin tribe. I have two sisters and am the middle child. The three of us live with our parents. In 2001, my dad came to Ireland from Nigeria to work as a Database Administrator. My Mum is a social worker, completing her MS in Social work at Trinity College in [!!]. I come from a musical family. At 4 I started playing the piano and stopped formal music education at 12 achieving a Grade 6 piano certification from the Royal Irish Academy of Music. I also learnt to play the bass, guitar, and drums. Every Sunday I play bass guitar in my Church choir, along with my dad and siblings. 
+I achieved the highest Leaving Certificate points in secondary school (579 points) in 2019. I’ve maintained exclusively First-Class Honours grades throughout my undergraduate degree so far, taking courses in maths, programming, and statistics.
+I am grateful to have been able to get my undergraduate education with the help of my parents. They have often struggled to meet the financial demands of bringing both me and my older sister through university simultaneously. During my time as an undergraduate, I have been living at home and commuting to Dublin to save costs and enable my sister to be able to move away for schooling. In second year, this was particularly tough. I worked part time as a tutor for my university, as well as taking up any external tutoring gig I could to ease the burden on my parents. In the summer holidays of 2020 and 2021, I took up general operative work at factories to help with funding the subsequent school year. To pursue an MSc in Statistics at LSE, I need to move to London, but we will struggle to fund postgraduate education even within Ireland. A scholarship would help greatly with this. 
