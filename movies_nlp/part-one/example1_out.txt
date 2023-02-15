@@ -1,0 +1,19 @@
+The difference for them can be significant. 
+A 10-year loan of €50,000 from you at zero interest would involve monthly payments of €417, or €5,000 a year. 
+With An Post’s market-leading rate, the friend would be paying €525.45 a month, or over €6,300 a year and over €13,000 interest over the life of the loan.  
+To test the effectiveness of this sentence boundary detector, let's try some special cases!!! 
+Ironic huh? 
+That was a special case... 
+So is this, and this too! 
+Pi being 3.14159 is not really an edge case. 
+Two more things: 
+The capital of U.s.a. is Washington DC, but that isn't the end of a sentence! 
+And George W. Bush was the 43rd president of America, but that wasn't a sentence ending either. 
+How will we deal with those pesky edge cases??? 
+Disclaimer: 
+All characters are ficitonal. 
+I went to Dr. Larry because I had a sore head, and he said Prof. Phillip's and Mrs. Mcgeoghs books had an antidote for that. 
+I.e. liquid ibuprofen. 
+J. K. Rowling wrote Harry Potter, but those initials didn't end the sentence. 
+But if I tell you my grade in my Irish exams, that should end the sentence right? 
+I got a B. That didn't end the sentence though; But we just had to make that tradeoff...
