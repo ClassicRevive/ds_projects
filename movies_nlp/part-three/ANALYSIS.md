@@ -94,7 +94,7 @@ This review frequently compares the movie "Hoodlum" , in the reviewers words, "a
 
 Although, words with negative sentiment, such as "insult, distraction", and "similarities" were used when comparing the two movies. Notably, Mario Puzo, director of "The Godfather" is mentioned, whose name has a much higher probability of occurring in positive reviews, contributing to the incorrect prediction.
 
-![extraordinary_visitor](../images/hoodlum.png)
+![extraordinary_visitor](../images/Hoodlum.png)
 
 
 
